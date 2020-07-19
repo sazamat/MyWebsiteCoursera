@@ -3,5 +3,7 @@ function rpsGame(yourChoice) {
     var humanChoice,botChoice;
     humanChoice=yourChoice.id;
     message=finalMessage(results);
-    results=va
+    console.log(yourChoice);
+    
+
 }
