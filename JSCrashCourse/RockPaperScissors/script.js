@@ -4,6 +4,7 @@ function rpsGame(yourChoice) {
     humanChoice=yourChoice.id;
     message=finalMessage(results);
     console.log(yourChoice);
+    VAR XMLDocument
     
 
 }
