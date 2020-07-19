@@ -5,6 +5,6 @@ function rpsGame(yourChoice) {
     message=finalMessage(results);
     console.log(yourChoice);
     VAR XMLDocument
-    
+    sss
 
 }
