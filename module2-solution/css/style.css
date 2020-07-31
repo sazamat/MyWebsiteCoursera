@@ -1,0 +1,143 @@
+    h1{
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+}
+div
+{ 
+    width: 100%;
+float: left;
+margin: 30px;
+
+}
+.container{
+    text-align: center  ;
+    position: relative;
+   
+}
+section{
+    background-color: red;
+    height: 30px;
+
+      float: right; 
+      margin-bottom: 20px;
+        width: 150px;
+        font-weight: 50px;
+        font-size: 20px;
+      
+}
+
+
+
+
+
+   #sec1{
+        background-color:#b50b46;
+        color: black;
+    }
+    #sec2{
+        background-color: darkred;
+        color: white;
+    }
+ 
+    #sec3{
+        background-color: yellow;
+        color: black;
+    }
+@media (min-width:992px){
+ 
+    .container-1{
+        height: 150px;
+        width: 27%;
+        background-color: gray;
+        font-size: 12px;
+    }
+        .container-2{
+        height:150px;
+        width: 27%;
+        background-color: gray;
+        font-size: 12px;
+    }
+        .container-3{
+        height: 150px;
+        width: 27%;
+        background-color: gray;
+        
+    }
+    
+  
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        clear: both;
+        text-align: left;
+        margin: 10px;
+    }
+ 
+}
+
+
+
+
+@media (min-width:768px) and (max-width:991px){
+  div
+{ 
+    width: 100%;
+float: left;
+margin: 30px;
+
+}
+    .container-1{
+        width: 40%;
+           
+    height: 150px;
+   
+    background-color: gray;
+
+    }
+    .container-2{
+        width: 40%;
+           height: 150px;
+   
+    background-color: gray;
+    }
+    .container-3{
+        width: 90%;
+           height: 150px;
+    background-color: gray;
+    }
+
+}
+
+@media (max-width:767px){
+    div
+{ 
+    width: 100%;
+float: left;
+margin: 30px;
+
+}
+    .container-1{
+        width: 90%;
+           
+    height: 150px;
+   
+    background-color: gray;
+
+    }
+    .container-2{
+        width: 90%;
+           height:150px;
+   
+    background-color: gray;
+    }
+    .container-3{
+        width: 90%;
+           height: 150px;
+   
+    background-color: gray;
+    }
+
+
+}
