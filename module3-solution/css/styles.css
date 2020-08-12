@@ -1,0 +1,85 @@
+    body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+    }
+    /*HEADER*/
+    header{
+     
+      overflow:hidden   ;
+      top: 0;
+      left: 0;
+    }
+   
+    #header-nav {
+     
+    background-color: #aba2a4;
+    border-radius: 0;
+    border: 0;
+    }
+    .navbar-brand {
+    padding-top: 25px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Oxygen', serif;
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 120;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: -10px;
+    margin-bottom: 15px;
+   
+    line-height: .75;
+    }
+    .container .row h2{
+        color: black;
+        line-height: 1.3;
+        font-weight: bold
+        ;
+    }
+    #collapsable-nav a{
+      text-align:center ;
+      font-style: 'Lora',Sans-serif;
+      color: black;
+      font-weight: bold;
+    }
+    .good{
+ height: 1000px;
+ width:95%;
+  margin: 0 auto 15px auto ;
+  background-color: #aba2a4;
+  
+  
+  position: relative;
+  border: 2px solid #aba2a4;
+  overflow: hidden;
+    }
+    h2{
+      color: black;
+      margin-bottom: 90px;
+      font-weight: bold;
+    }
+    .good h2{
+        color: black;
+        font-size: 30px;
+    }
+    .good div{
+      color: black;
+    }
+  
+  @media (min-width:1200px)
+  {
+ 
+     #nav-list {
+      display: none ;
+    }
+     
+
+  }
+    @media (min-width:678px) and (max-width:991px){
+     .good{
+     width: 80%;        }   
+     
+   
